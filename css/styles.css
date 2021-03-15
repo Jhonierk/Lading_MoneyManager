@@ -474,9 +474,40 @@ mark,
   content: "— ";
 }
 
+.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: black; 
+font-size: 18px; 
+font-weight: 400; 
+background: white; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid black;}
+
+.caja .p {
+  text-align: left;
+}
+
+
 .img-fluid {
   max-width: 70%;
 }
+
+.img-fluidUs {
+  max-width: 50%;
+  float: left;
+}
+
+.img-fluidUsj {
+  max-width: 50%;
+  float: right;
+}
+
+
 
 
 code {
